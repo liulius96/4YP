@@ -128,3 +128,5 @@ ax2.plot(valid_logdiff.log_ret, label='Actual log difference')
 ax2.plot(pred2.log_ret, color='green', label='Predicted log difference with VAR')
 ax2.plot(pred_log_diff.log_ret, color='orange', label='Predicted log difference with noramlised VAR')
 ax2.legend(loc='upper left')
+
+plt.show(f)
